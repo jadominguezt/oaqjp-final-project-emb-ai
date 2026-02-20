@@ -33,5 +33,5 @@ def emotion_detector(text_to_analyse):
     dominant_emotion_score = emotions_dict[dominant_emotion]
     emotions_dict['dominant_emotion'] = dominant_emotion
     
-    # Print the response
-    print(emotions_dict)
+    # Return the response
+    return emotions_dict
